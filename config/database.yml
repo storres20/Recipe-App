@@ -89,6 +89,11 @@ test:
 #
 production:
   <<: *default
-  database: Recipe_App_production
-  username: Recipe_App
-  password: <%= ENV["RECIPE_APP_DATABASE_PASSWORD"] %>
+  # database: Recipe_App_production
+  # username: Recipe_App
+  # password: <%= ENV["RECIPE_APP_DATABASE_PASSWORD"] %>
+  host: bjj7zqkx3bea1wttykgz-postgresql.services.clever-cloud.com
+  port: 5432
+  database: bjj7zqkx3bea1wttykgz
+  username: upzlzcyojs3k4eqoduqj
+  password: 5lRzTOhQK5FTAIeIYNkuVMVghGkgPH
