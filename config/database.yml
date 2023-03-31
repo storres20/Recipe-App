@@ -97,3 +97,4 @@ production:
   database: bjj7zqkx3bea1wttykgz
   username: upzlzcyojs3k4eqoduqj
   password: 5lRzTOhQK5FTAIeIYNkuVMVghGkgPH
+  url: <%= ENV['DATABASE_URL'] %>
